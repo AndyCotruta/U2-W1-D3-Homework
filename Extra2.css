@@ -1,0 +1,34 @@
+.bg {
+  background-color: lightgrey;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: bisque;
+  height: 400px;
+  width: 800px;
+  border-radius: 50px;
+  display: flex;
+}
+
+.row1 {
+  background-color: aquamarine;
+  width: 49%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.breakline {
+  background-color: black;
+  width: 2%;
+}
+
+.row2 {
+  background-color: aquamarine;
+  width: 49%;
+}
