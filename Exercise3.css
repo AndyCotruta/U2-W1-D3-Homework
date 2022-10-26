@@ -1,0 +1,61 @@
+body {
+  height: 100vh;
+  font-weight: bold;
+}
+
+.text {
+  padding: 20px;
+  font-size: 20px;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+}
+
+.vertical {
+  display: flex;
+  height: 80%;
+}
+
+.subcontainer {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 5;
+}
+
+main {
+  display: flex;
+  flex-grow: 9;
+  flex-direction: column;
+}
+
+header {
+  background-color: #111023;
+  color: #ffffff;
+  height: 20%;
+}
+
+.article {
+  background-color: #ffffff;
+  color: #111023;
+  height: 60%;
+}
+
+.aside {
+  background-color: #320388;
+  color: #ffffff;
+  flex-grow: 1;
+}
+
+.nav {
+  background-color: #c22177;
+  color: #ffffff;
+  flex-grow: 1;
+}
+
+footer {
+  background-color: #111023;
+  color: #ffffff;
+  height: 26%;
+}

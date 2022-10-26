@@ -1,0 +1,55 @@
+body {
+  height: 100%;
+  font-weight: bold;
+}
+
+.text {
+  padding: 20px;
+  font-size: 20px;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.subcontainer {
+  display: flex;
+  height: 60%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 9;
+}
+
+header {
+  background-color: #111023;
+  color: #ffffff;
+  height: 20%;
+}
+
+.article {
+  background-color: #ffffff;
+  color: #111023;
+  flex-grow: 7;
+}
+
+.aside {
+  background-color: #320388;
+  color: #ffffff;
+  flex-grow: 1;
+}
+
+.nav {
+  background-color: #c22177;
+  color: #ffffff;
+  flex-grow: 1;
+}
+
+footer {
+  background-color: #111023;
+  color: #ffffff;
+  height: 20%;
+}
